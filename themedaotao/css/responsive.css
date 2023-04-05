@@ -1,0 +1,83 @@
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media only screen and (min-width: 0px) {
+  /*.container-fluid{
+    width: 100vw;
+  }*/
+  body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .container-md-fluid {
+    width: 100vw;
+  }
+  .table_partners {
+    display: block;
+    width: 100vw;
+    overflow-x: auto;
+  }
+}
+
+/* -------------------md breakpoint -------------*/
+
+@media only screen and (min-width: 768px) {
+  .main-content {
+    padding: 4rem 5rem !important;
+  }
+  .about-us-img > img {
+    width: 960px;
+    height: 805px;
+  }
+  .gallery_container {
+    width: 50%;
+  }
+  .fs_md_20 {
+    font-size: 20px;
+  }
+  .fs_md_28 {
+    font-size: 28px;
+  }
+  .font_md_700 {
+    font-weight: 700;
+  }
+  /* ------------time line----------- */
+  .timeline img {
+    height: 170px;
+    width: 170px;
+  }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(50%);
+    height: 100%;
+    border-left: 2px solid var(--grey);
+  }
+  .timeline > li:nth-child(odd) .timeline-box {
+    top: 0;
+    right: calc(100% + 30px);
+    height: 100%;
+    text-align: right;
+    min-width: 400px;
+  }
+  .timeline > li:nth-child(even) .timeline-box {
+    top: 0;
+    left: calc(100% + 30px);
+    height: 100%;
+    min-width: 400px;
+  }
+  .timeline > li:not(:last-child) {
+    margin-bottom: 100px;
+  }
+}

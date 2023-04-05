@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script src="jquery.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-header">
+      <header class="">
+        <div class="bg-black px-4 py-2 text-uppercase header-top">
+          <div class="row">
+            <div class="d-flex flex-column flex-md-row col-6">
+              <p class="text-primary mb-0">NEED A WRAP?</p>
+              <a href="#" class="ps-1">FIND A DEALER</a>
+            </div>
+            <div
+              class="d-flex flex-column align-items-end flex-md-row col-6 justify-content-md-end"
+            >
+              <p class="text-primary mb-0">CAN WE HELP?</p>
+              <a href="#" class="ps-1">ASK US</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="sticky-top">
+        <nav class="navbar navbar-expand navbar-custom py-0">
+          <div
+            class="d-flex justify-content-between align-items-center px-4 w-100"
+          >
+            <a href="" class="navbar-brand">
+              <img
+                src="img/logo/wrapstyle_logo_v2_long.png"
+                alt=""
+                width="181"
+                height="45"
+              />
+            </a>
+            <div class="d-none d-md-flex justify-content-center">
+              <ul class="nav navbar-nav">
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">Home</a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="aboutus.html" class="nav-link text-dark px-2"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">Licensing</a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2"
+                    >Services
+                    <span class="w-25">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="10"
+                        fill="currentColor"
+                        class="bi bi-caret-down-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">Gallery</a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">Inquiries</a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">News</a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">Carrer</a>
+                </li>
+                <li class="nav-item active px-3 pt-2">
+                  <a href="" class="nav-link text-dark px-2">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ps-3 d-flex gap-3 justify-content-center align-content-center"
+            >
+              <a href="" class="d-grid align-content-center">
+                <img src="img/flag/flag_cs.png" alt="" class="" />
+              </a>
+              <button
+                class="btn border border-3 d-md-none"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="offcanvas offcanvas-top mt-5"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasScrolling"
+        aria-labelledby="offcanvasScrollingLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class=" ">
+            <ul class="nav navbar-nav">
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">Home</a>
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="aboutus.html" class="nav-link text-dark px-2"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">Licensing</a>
+              </li>
+              <li class="d-flex justify-content-between align-items-center nav-item active px-3 pt-2">
+                <a href="" class=" nav-link text-dark px-2">Services </a>
+                <button class="me-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    fill="currentColor"
+                    class="bi bi-caret-down-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                    />
+                  </svg>
+                </button>
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">Gallery</a>
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">Inquiries</a>
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">News</a>
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">Carrer</a>
+              </li>
+              <li class="nav-item active px-3 pt-2">
+                <a href="" class="nav-link text-dark px-2">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------Main----------------- -->
+    <div class="container-fluid px-0">
+      <div class="position-relative" style="margin-top: 55px">
+        <div class="position-relative">
+          <img
+            src="img/About us/about-us_jumbo.jpg"
+            alt=""
+            class=""
+            width="100%"
+            height="179"
+            style="object-fit: cover"
+          />
+          <div
+            class="position-absolute top-50 start-50 translate-middle text_white text-center"
+          >
+            <p class="text-uppercase fs_32 font_900">about us</p>
+            <p class="fs_20 font_300 text_grey">History of WrapStyle</p>
+          </div>
+        </div>
+      </div>
+      <div class="px-0 px-md-2 bg-grey">
+        <p class="text-center fs_md_20 text-secondary mb-0 p-md-5 p-3">
+          WrapStyle company was founded in 2012, however its roots date back to
+          2006, when we provided the general public a window tinting service
+          under the name of TinTek. We literally started in a garage, and we had
+          nothing but vision and determination. In 2008, we made our first
+          attempts in full wraps. At that time, however, a car body wrapped in a
+          vinyl was rather utopian. Still, we believed in this product and tried
+          to break through.
+        </p>
+      </div>
+      <div class="py-5 fs_md_20 text-secondary text-center">
+        <div class="py-3 px-3 px-md-5">
+          <p class="">
+            Despite some initial misunderstandings by the customers, car
+            wrapping has found its supporters and the company has begun to get
+            ahead. Thanks to our determination to push the boundaries of
+            wrapping, we did what the was seemingly impossible in 2008. We were
+            the first in the world to wrap a Chevrolet Camaro in a mirror film
+            vinyl known as chrome wrap.
+          </p>
+          <p class="">
+            This project had become so popular on social networks that almost
+            every car website had featured it. We were immediately shot upwards
+            and started to get requests from all over the world. Thus, we opened
+            our first foreign branch in Dubai in 2012, under the new brand name
+            of WrapStyle. Our goal has been to spread high-quality service
+            combined with superior customer care both Czech Republic and
+            overseas. Qatar and other destinations followed up to current 25+
+            shops in 20 countries. The company wraps thousands of cars a year.
+            WrapStyle offers five basic services: car wrapping (color change –
+            full wrap, partial wrap), paint protection film, window tinting,
+            ceramic coatings and design.
+          </p>
+          <h3 class="mt-4 fs_24 fs_md_28 mt-md-5">why we do, what we do</h3>
+          <p>
+            Our main goal is customers´ satisfaction. Our result combines a
+            perfect service with high-quality materials and customer care. Each
+            of the projects should end with client´s pride and joy from the
+            result and the feeling of a job well done. Our branches produce
+            unique pieces of work every day, and we are thrilled to be part of
+            it..
+          </p>
+          <div class="row-cols-md-1 justify-content-center">
+            <p class="col-md-6 pt-5 pb-4">
+              It was a nice experience to share our story with Forbes Česko and
+              we are grateful for this opportunity. WrapStyle family would never
+              be such a big and international without all our franchises around
+              the world. Click on pic to read whole article.
+            </p>
+          </div>
+          <div class="">
+            <a
+              href="#"
+              class="aboutus_article_box position-relative d-inline-block overflow-hidden"
+            >
+              <img
+                src="img/About us/forbes_wide_article.jpg"
+                alt=""
+                class="img-fluid d-block"
+              />
+              <span
+                class="text-uppercase position-absolute top-50 start-50 translate-middle opacity-0"
+                >read the article</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-grey py-5 text-center">
+        <p class="fs_20 font_300 px-1 px-md-2">WRAPSTYLE™ IN NUMBERS</p>
+        <h3>TIMELINE</h3>
+        <div class="row row-cols-md-3 text-uppercase text-center g-0 mt-5">
+          <div class="col-12 col-md-4 pb-1 px-3">
+            <img
+              src="img/About us/Time line/icon_employees.png"
+              alt=""
+              class="mb-4"
+            />
+            <p class="fs_24 font_700 mb-0">15</p>
+            <p class="font_300 mb-0 text-secondary">specialized employees</p>
+          </div>
+          <div class="col-12 col-md-4 pb-1 px-3">
+            <img
+              src="img/About us/Time line/icon_shops.png"
+              alt=""
+              class="mb-4"
+            />
+            <p class="fs_24 font_700 mb-0">25+</p>
+            <p class="font_300 mb-0 text-secondary">shops around the world</p>
+          </div>
+          <div class="col-12 col-md-4 pb-1 px-3">
+            <img
+              src="img/About us/Time line/icon_requests.png"
+              alt=""
+              class="mb-4"
+            />
+            <p class="fs_24 font_700 mb-0">3500+</p>
+            <p class="font_300 mb-0 text-secondary">
+              request processed<br />
+              every year
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-5">
+        <div class="container">
+          <ul class="timeline mb-0 px-0 position-relative">
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2000.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2000</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    when martin met marker, everything changed
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2002.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2002</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    first attempt of car full wrap
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2006.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2006</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    established the tintek company and our first ferrari
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2012.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2012</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    WRAPSTYLE ORIGIN, REGISTERED TRADEMARK AND FIRST BRANCH IN
+                    DUBAI
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2013.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2013</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    OPENING THE FIRST BRANCH IN QATAR
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2016.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2016</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    REPRESENTED IN 12 COUNTRIES
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_2020_v3.jpg"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+                <div
+                  class="position-absolute px-md-4 timeline-box d-flex flex-column justify-content-center"
+                >
+                  <p class="fs_24 font_900 text-primary mb-2">2020</p>
+                  <p class="text-uppercase font_300 text-secondary mb-0">
+                    25+ SHOPS AROUND THE WORLD
+                  </p>
+                </div>
+              </span>
+            </li>
+
+            <li class="d-md-flex justify-content-center">
+              <span class="position-relative d-inline-block">
+                <span class="d-inline-block rounded-circle p-2 bg-grey">
+                  <img
+                    src="img/About us/Time line/timeline_last_v3.png"
+                    alt=""
+                    class="rounded-circle"
+                    width="170"
+                    height="170"
+                  />
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container-lg py-5 px-4">
+        <p class="text-center fs_24 font_900">GET IN TOUCH</p>
+        <div class="mt-4">
+          <form action="">
+            <div class="row row-cols-md-4 gy-2 px-0">
+              <div class="col-12 col-md-3 form-group">
+                <input
+                  type="text"
+                  placeholder="Name*"
+                  class="w-100 form-control p-2 text-secondary border_light_grey"
+                />
+              </div>
+              <div class="col-12 col-md-3 form-group">
+                <input
+                  type="text"
+                  placeholder="City*"
+                  class="w-100 form-control p-2 text-secondary border_light_grey"
+                />
+              </div>
+              <div class="col-12 col-md-3 form-group">
+                <input
+                  type="text"
+                  placeholder="E-mail*"
+                  class="w-100 form-control p-2 text-secondary border_light_grey"
+                />
+              </div>
+              <div class="col-12 col-md-3 form-group">
+                <input
+                  type="text"
+                  placeholder="Phone*"
+                  class="w-100 form-control p-2 text-secondary border_light_grey"
+                />
+              </div>
+            </div>
+            <div class="">
+              <textarea
+                name=""
+                id=""
+                cols="100%"
+                rows="5"
+                placeholder="Message*"
+                class="mt-3 p-2 text-secondary border_light_grey form-control"
+              ></textarea>
+              <button class="mt-3 bg-dark px-4 py-2 text-white">SEND</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
